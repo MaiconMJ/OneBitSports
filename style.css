@@ -39,3 +39,9 @@
 .navBtn:hover {
   border-bottom: 2px solid #000000;
 }
+.sectionTitle {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}

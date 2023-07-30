@@ -49,3 +49,17 @@
   text-align: center;
   color: #383838;
 }
+.gridContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "mainContent sidebarContent";
+  padding: 20px;
+  flex: 1 0 auto;
+}
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  grid-area: mainContent;
+}

@@ -78,6 +78,8 @@
 }
 .categoryCard:hover {
   border-color: #000000;
+  background-color: #292929;
+  color: #ffffff;
 }
 .mainCategoryCardTitle {
   font-family: Arial, Helvetica, sans-serif;
@@ -118,6 +120,8 @@
 }
 .sidebarCard:hover {
   border-color: gainsboro;
+  background-color: #ffffff;
+  color: #292929;
 }
 .footer {
   width: 100%;

@@ -138,3 +138,18 @@
   text-decoration: none;
 }
 
+@media (max-width: 360px) {
+  .gridContainer {
+    grid-template-areas: "mainContent" "sidebarContent";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .sidebarContent {
+    min-width: auto;
+  }
+  .footerAnchor {
+    font-size: 09px;
+  }
+}

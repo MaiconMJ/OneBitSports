@@ -153,3 +153,11 @@
     font-size: 09px;
   }
 }
+@media(max-width: 463px) {
+  .header {
+    justify-content: center;
+  }
+  .footer {
+    justify-content: center;
+  }
+}
